@@ -20,7 +20,7 @@ if(this.isActive){
     return{err: true, msg: 'wrong password'}
 }
  } else{
-    alert ('this shit has been deleted')
+    return{err:true,msg:'this shit has been deleted'}
 }
 }
 
